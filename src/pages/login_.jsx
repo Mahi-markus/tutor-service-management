@@ -48,7 +48,7 @@ const Login = () => {
                 />
                 <div className="flex items-center">
                   <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center mr-2">
-                    <img src="/api/placeholder/100/100" alt="Tutor" className="w-full h-full object-cover" />
+                    <img src="../assets/teacher.webp" alt="Tutor" className="w-full h-full object-cover" />
                   </div>
                   <span className="font-medium">Tutor</span>
                 </div>

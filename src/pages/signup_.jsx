@@ -42,11 +42,8 @@ const RegistrationPage = () => {
         <div className="hidden md:flex md:w-1/2 justify-center items-center">
           <div className="relative">
             <div className="bg-purple-200 rounded-full w-64 h-64 absolute -z-10"></div>
-            <img
-              src="../assets/register_side_img.svg"
-              alt="Registration illustration"
-              className="relative z-10"
-            />
+            <img src="../assets/react.svg" alt="Registration illustration" className="relative z-10" />
+
           </div>
         </div>
 

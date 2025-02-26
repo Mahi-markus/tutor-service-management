@@ -32,7 +32,8 @@ const RegistrationPage = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-50">
-      <div className="w-full max-w-6xl flex p-4">
+      <div className="w-full max-w-7xl flex p-4">
+
         
         {/* Left Side Illustration */}
         <div className="hidden md:flex md:w-1/2 justify-center items-center">
@@ -47,7 +48,8 @@ const RegistrationPage = () => {
         </div>
 
         {/* Right Side Form */}
-        <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow">
+        <div className="w-full  bg-white p-8 rounded-lg shadow">
+
           <h1 className="text-2xl font-semibold text-center text-gray-800 mb-6 border-b border-gray-200 pb-4">
             Register
           </h1>

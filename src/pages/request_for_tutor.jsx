@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Navbar from './navbar';
 
 const TutorRequestForm = () => {
   const [studentName, setStudentName] = useState("");
@@ -39,7 +39,10 @@ const TutorRequestForm = () => {
   };
 
   return (
+    <div>
+      <Navbar />
     <div className="container mx-auto p-4">
+      
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Form Section (2/3 width on large screens) */}
         <div className="lg:col-span-2">
@@ -216,6 +219,7 @@ const TutorRequestForm = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navbar from './navbar';
 
 const RegistrationPage = () => {
   const [userType, setUserType] = useState("tutor");
@@ -31,6 +32,8 @@ const RegistrationPage = () => {
   };
 
   return (
+    <div>
+      <Navbar/>
     <div className="flex justify-center items-center min-h-screen bg-gray-50">
       <div className="w-full max-w-7xl flex p-4">
 
@@ -247,6 +250,7 @@ const RegistrationPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

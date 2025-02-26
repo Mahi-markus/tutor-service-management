@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import Navbar from './navbar';
 
 const Login = () => {
   const [userType, setUserType] = useState("student");
@@ -26,6 +27,8 @@ const Login = () => {
   const buttonText = userType === "student" ? "Login in as a student" : "Login in as a tutor";
 
   return (
+    <div>
+      <Navbar />
     <div className="min-h-screen flex items-center justify-center">
       <div className="max-w-md mx-auto p-6 border border-gray-200 rounded-lg">
         {/* Login Header */}
@@ -124,6 +127,7 @@ const Login = () => {
           <a href="/Signup" className="text-blue-900">Click here to Register</a>
         </div>
       </div>
+    </div>
     </div>
   );
 };
